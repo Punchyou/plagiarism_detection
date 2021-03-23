@@ -68,7 +68,7 @@ if __name__ == "__main__":
     model = KNeighborsClassifier(n_neighbors=10)
 
     ## TODO: Train the model
-    model.fit(train_y, train_y)
+    model.fit(train_x, train_y)
 
     ## --- End of your code  --- ##
 
